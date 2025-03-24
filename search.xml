@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>博客搭建指南</title>
+    <url>/2025/03/24/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<h1 id="博客搭建指南">博客搭建指南</h1>
+<h2 id="常用指令">1. 常用指令</h2>
+<h3 id="hexo指令">1.1 hexo指令</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli		# 安装hexo</span><br><span class="line">hexo init					# 初始化hexo</span><br><span class="line">npm install					# 构建需要的环境与node_modules</span><br><span class="line">hexo server					# 启动服务器</span><br><span class="line">hexo g						# 生成静态文件</span><br><span class="line">hexo d						# 上传到GitHub</span><br><span class="line">hexo new &quot;Markdown文件名&quot;    # 生成新的Markdown文件用于新的博文</span><br><span class="line">hexo clean                  # 清理缓存文件</span><br><span class="line"># 删除文章只需要将source中的markdown文件删掉，然后执行 hexo g 即可</span><br></pre></td></tr></table></figure>
+<p><strong>上传github</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean                  # 清理缓存文件</span><br><span class="line">hexo g						# 生成静态文件</span><br><span class="line">hexo d						# 上传到GitHub</span><br></pre></td></tr></table></figure>
+<p><strong>重启hexo</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean                  # 清理缓存文件</span><br><span class="line">hexo g						# 生成静态文件</span><br><span class="line">hexo S						# 上传到GitHub</span><br></pre></td></tr></table></figure>
+<h2 id="遇到的问题解决方案">2. 遇到的问题解决方案</h2>
+<p><a
+href="https://blog.csdn.net/yexiaohhjk/article/details/82526604">hexo
+next主题解决无法显示数学公式</a></p>
+<p><a
+href="https://blog.csdn.net/weixin_45073562/article/details/120289648">「博客搭建」Hexo
+Next主题配置Mathjax遇到的问题：pandoc exited with code null</a></p>
+<p><a
+href="https://www.cnblogs.com/helloylh/p/17280301.html">hexo+Next主题搭建建个人博客+优化全过程（完整版）
+- hugeYlh - 博客园</a></p>
+<p><a
+href="https://blog.csdn.net/lxn2zh/article/details/142972099">hexo使用next主题博客侧边栏标题点击不跳转</a></p>
+<p><a
+href="https://github.com/iissnan/hexo-theme-next/issues/1553">目录自动生成的序号在哪里去除呢？给人很杂乱的感觉
+· Issue #1553 · iissnan/hexo-theme-next</a></p>
+<p><a
+href="https://github.com/next-theme/hexo-filter-mathjax">hexo-filter-mathjax</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>数学基础</title>
     <url>/2025/03/24/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<h1 id="数学基础">数学基础</h1>
@@ -31,36 +61,6 @@ Generating Function, MGF)</h3>
 <p><a href="https://www.bilibili.com/video/BV1wS411w7pR/?spm_id_from=333.337.search-card.all.click&amp;vd_source=f9ffb01959549d71f231ad42348f0fb6">Chap3_5矩生成函数_哔哩哔哩_bilibili</a></p>
 <p><a href="https://www.probabilitycourse.com/chapter6/6_1_3_moment_functions.php">6.1.3
 Moment Generating Functions</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建指南</title>
-    <url>/2025/03/24/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<h1 id="博客搭建指南">博客搭建指南</h1>
-<h2 id="常用指令">1. 常用指令</h2>
-<h3 id="hexo指令">1.1 hexo指令</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli		# 安装hexo</span><br><span class="line">hexo init					# 初始化hexo</span><br><span class="line">npm install					# 构建需要的环境与node_modules</span><br><span class="line">hexo server					# 启动服务器</span><br><span class="line">hexo g						# 生成静态文件</span><br><span class="line">hexo d						# 上传到GitHub</span><br><span class="line">hexo new &quot;Markdown文件名&quot;    # 生成新的Markdown文件用于新的博文</span><br><span class="line">hexo clean                  # 清理缓存文件</span><br><span class="line"># 删除文章只需要将source中的markdown文件删掉，然后执行 hexo g 即可</span><br></pre></td></tr></table></figure>
-<p><strong>上传github</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean                  # 清理缓存文件</span><br><span class="line">hexo g						# 生成静态文件</span><br><span class="line">hexo d						# 上传到GitHub</span><br></pre></td></tr></table></figure>
-<p><strong>重启hexo</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean                  # 清理缓存文件</span><br><span class="line">hexo g						# 生成静态文件</span><br><span class="line">hexo S						# 上传到GitHub</span><br></pre></td></tr></table></figure>
-<h2 id="遇到的问题解决方案">2. 遇到的问题解决方案</h2>
-<p><a
-href="https://blog.csdn.net/yexiaohhjk/article/details/82526604">hexo
-next主题解决无法显示数学公式</a></p>
-<p><a
-href="https://blog.csdn.net/weixin_45073562/article/details/120289648">「博客搭建」Hexo
-Next主题配置Mathjax遇到的问题：pandoc exited with code null</a></p>
-<p><a
-href="https://www.cnblogs.com/helloylh/p/17280301.html">hexo+Next主题搭建建个人博客+优化全过程（完整版）
-- hugeYlh - 博客园</a></p>
-<p><a
-href="https://blog.csdn.net/lxn2zh/article/details/142972099">hexo使用next主题博客侧边栏标题点击不跳转</a></p>
-<p><a
-href="https://github.com/iissnan/hexo-theme-next/issues/1553">目录自动生成的序号在哪里去除呢？给人很杂乱的感觉
-· Issue #1553 · iissnan/hexo-theme-next</a></p>
-<p><a
-href="https://github.com/next-theme/hexo-filter-mathjax">hexo-filter-mathjax</a></p>
 ]]></content>
   </entry>
 </search>
